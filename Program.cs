@@ -131,24 +131,26 @@ namespace MHFOldEquipQuestFix
                 target[0x0132] = src3;
                 target[0x0133] = src4;
 
-                //SR/AI FLag
-                src1 = src[336];
-                src2 = src[337];
-                src3 = src[338];
-                src4 = src[339];
-                target[312] = src1;
-                target[313] = src2;
-                target[314] = src3;
-                target[315] = src4;
+                //Variants Flag
+                src1 = src[0x0150];
+                src2 = src[0x0151];
+                src3 = src[0x0152];
+                src4 = src[0x0153];
+                target[0x0138] = src1;
+                target[0x0139] = src2;
+                target[0x013A] = src3;
+                target[0x013B] = src4;
 
-                src1 = src[340];
-                src2 = src[341];
-                src3 = src[342];
-                src4 = src[343];
-                target[316] = src1;
-                target[317] = src2;
-                target[318] = src3;
-                target[319] = src4;
+
+                //SR Lock Flag
+                src1 = src[0x0154];
+                src2 = src[0x0155];
+                src3 = src[0x0156];
+                src4 = src[0x0157];
+                target[0x013C] = src1;
+                target[0x013D] = src2;
+                target[0x013E] = src3;
+                target[0x013F] = src4;
                 return true;
             }
             catch (Exception e) 

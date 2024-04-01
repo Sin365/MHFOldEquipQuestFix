@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHFOldEquipQuestFix", "MHFOldEquipQuestFix.csproj", "{D502E3BE-ACC8-4464-B143-96B0C7BFDEB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MHFOldEquipQuestFix", "MHFOldEquipQuestFix.csproj", "{D502E3BE-ACC8-4464-B143-96B0C7BFDEB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHFOldQuestConditionStringFix", "MHFOldQuestConditionStringFix\MHFOldQuestConditionStringFix.csproj", "{2410A7D1-FC2C-408C-A544-8091D34873CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D502E3BE-ACC8-4464-B143-96B0C7BFDEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D502E3BE-ACC8-4464-B143-96B0C7BFDEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D502E3BE-ACC8-4464-B143-96B0C7BFDEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2410A7D1-FC2C-408C-A544-8091D34873CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2410A7D1-FC2C-408C-A544-8091D34873CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2410A7D1-FC2C-408C-A544-8091D34873CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2410A7D1-FC2C-408C-A544-8091D34873CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
